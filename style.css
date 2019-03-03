@@ -1,15 +1,58 @@
-.introBox {
-	width: 60%;
+html {
+  background-position: center top;
+  background-color: #343a44;
 }
 
-.emailLogo {
-	font-size: 85px;
-	color: #4875B4;
-	padding: 10px;
+body {
+  text-transform: uppercase;
+  background-repeat: no-repeat;
 }
 
-.linkedinLogo {
-	font-size: 85px;
-	color: #0077B5;
-	padding: 10px;
+a {
+  text-decoration: none;
+}
+
+.main {
+  margin: auto;
+  text-align: center;  /* To center the div */
+  width: 75%;
+  padding: 15px;
+  color: #8e9099;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#fullName {
+  margin-top: 22%;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+
+firstName {
+  color: white;
+  letter-spacing: 10px;
+}
+
+lastName {
+  color: #8e9099;
+  letter-spacing: 5px;
+}
+
+#description {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+#contacts {
+  font-size: 50px;
+  letter-spacing: 20px;
+  margin-top: 80px;
+}
+
+#contacts a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.link {
+  color: #b7b7bc;
 }
