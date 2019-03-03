@@ -25,6 +25,8 @@ a {
   margin-top: 22%;
   margin-bottom: 25px;
   font-size: 40px;
+  animation-delay: 750ms;
+  animation-duration: 2s;
 }
 
 firstName {
@@ -40,12 +42,16 @@ lastName {
 #description {
   letter-spacing: 2px;
   font-size: 20px;
+  animation-delay: 1500ms;
+  animation-duration: 2s;
 }
 
 #contacts {
   font-size: 50px;
   letter-spacing: 20px;
   margin-top: 80px;
+  animation-delay: 2000ms;
+  animation-duration: 5500ms;
 }
 
 #contacts a:hover {
