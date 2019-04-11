@@ -6,6 +6,7 @@ html {
 body {
   text-transform: uppercase;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 a {
@@ -14,42 +15,42 @@ a {
 
 .main {
   margin: auto;
-  text-align: center;  /* To center the div */
+  text-align: center;
   width: 75%;
-  padding: 15px;
+  margin-top: 20%;
   color: #8e9099;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #fullName {
   margin-top: 22%;
-  margin-bottom: 25px;
-  font-size: 40px;
+  margin-bottom: 3%;
+  font-size: 2.8em;
   animation-delay: 750ms;
   animation-duration: 2s;
 }
 
 firstName {
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 0.14em;
 }
 
 lastName {
   color: #8e9099;
-  letter-spacing: 5px;
+  letter-spacing: 0.1em;
 }
 
 #description {
-  letter-spacing: 2px;
-  font-size: 20px;
+  letter-spacing: 0.12em;
+  font-size: 1.25em;
   animation-delay: 1500ms;
   animation-duration: 2s;
 }
 
 #contacts {
-  font-size: 50px;
-  letter-spacing: 20px;
-  margin-top: 80px;
+  font-size: 3.2em;
+  letter-spacing: 0.43em;
+  margin-top: 8%;
   animation-delay: 2000ms;
   animation-duration: 5500ms;
 }
@@ -61,4 +62,18 @@ lastName {
 
 .link {
   color: #b7b7bc;
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    margin-top: 35%;
+  }
+
+  #contacts {
+    margin-top: 20%;
+  }
+
+  #description {
+    margin-top: 15%;
+  }
 }
